@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "bn-falcon"
+version = "0.1.0"
+description = "Blazing-fast tool for analyzing and pentesting computer networks"
+authors = ["alexeev-prog <alexeev.dev@mail.ru>"]
+license = "GNU LGPL 2.1"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+rich = "^13.9.4"
+click = "^8.1.0"
+scapy = "^2.6.1"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
